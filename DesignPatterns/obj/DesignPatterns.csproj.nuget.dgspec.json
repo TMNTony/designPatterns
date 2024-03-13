@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tony/Documents/Coding/CSharpPractice/DesignPatterns/DesignPatterns.csproj": {}
+    "/Users/tony/Documents/Coding/designPatterns/DesignPatterns/DesignPatterns.csproj": {}
   },
   "projects": {
-    "/Users/tony/Documents/Coding/CSharpPractice/DesignPatterns/DesignPatterns.csproj": {
+    "/Users/tony/Documents/Coding/designPatterns/DesignPatterns/DesignPatterns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tony/Documents/Coding/CSharpPractice/DesignPatterns/DesignPatterns.csproj",
+        "projectUniqueName": "/Users/tony/Documents/Coding/designPatterns/DesignPatterns/DesignPatterns.csproj",
         "projectName": "DesignPatterns",
-        "projectPath": "/Users/tony/Documents/Coding/CSharpPractice/DesignPatterns/DesignPatterns.csproj",
+        "projectPath": "/Users/tony/Documents/Coding/designPatterns/DesignPatterns/DesignPatterns.csproj",
         "packagesPath": "/Users/tony/.nuget/packages/",
-        "outputPath": "/Users/tony/Documents/Coding/CSharpPractice/DesignPatterns/obj/",
+        "outputPath": "/Users/tony/Documents/Coding/designPatterns/DesignPatterns/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tony/.nuget/NuGet/NuGet.Config"
