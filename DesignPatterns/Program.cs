@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using System.Text;
+using DesignPatterns.abstractFactory;
 using DesignPatterns.factory;
 using DesignPatterns.memento;
 using DesignPatterns.state;
@@ -9,7 +10,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        factoryExample();
+        abstractFactory();
 
     }
 
@@ -40,6 +41,20 @@ public class Program
     {
         IPayment payment = PaymentFactory.create(PaymentMethod.ApplePay);
         payment.Pay(7000.00);
+    }
+
+    static void abstractFactory()
+    {
+        Country country = Country.Spain;
+        IInternationalFactory factory = InternationalProvider.getFactory(country);
+        ICapital capital = factory.createCapital();
+        ILanguage language = factory.createLanguage();
+
+        Console.WriteLine(country);
+        Console.WriteLine(capital.GetType().Name);
+        language.Greet();
+        Console.WriteLine("Total population = " + capital.getPopulation());
+        Console.WriteLine("Top attractions include " + string.Join(", ", capital.listAttractions()));
     }
     
 }
