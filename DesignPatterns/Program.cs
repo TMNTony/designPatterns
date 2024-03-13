@@ -1,8 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using System.Text;
-using System.Threading.Channels;
-using DesignPatterns;
+using DesignPatterns.factory;
 using DesignPatterns.memento;
 using DesignPatterns.state;
 
@@ -10,13 +9,11 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Canvas canvas = new Canvas();
-        canvas.CurrentTool = new SelectionTool();
-        canvas.mouseDown();
+        factoryExample();
 
     }
 
-    static void memento()
+    static void mementoExample()
     {
         var editor = new Editor();
         var history = new History();
@@ -31,32 +28,18 @@ public class Program
 
         Console.WriteLine(editor.Content);
     }
-    
-   static void Fibonacci(int num)
+
+    static void stateExample()
     {
-        int previous = 0;
-        int current = 0;
-        int next = 1;
-
-        for (int i = 0; i < num; i++)
-        {
-            Console.WriteLine(current);
-            previous = current;
-            current = next;
-            next = previous + current;
-
-        }
+        Canvas canvas = new Canvas();
+        canvas.CurrentTool = new SelectionTool();
+        canvas.mouseDown();
     }
 
-    static bool palindrome(string s)
+    static void factoryExample()
     {
-        StringBuilder reverse = new StringBuilder();
-        for (int i = s.Length - 1; i >= 0; i--)
-        {
-            reverse.Append(s[i]);
-        }
-        Console.WriteLine(reverse);
-        return reverse.ToString() == s;
+        IPayment payment = PaymentFactory.create(PaymentMethod.ApplePay);
+        payment.Pay(7000.00);
     }
     
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mWIzFvBxjCNK7FKbEXUEIQaP9RMKrINW1LY+fbzIOLi6WT9JDLHHK18tWYUwy+heVgU9wOtI/ytb6BND8UrKdw==",
+  "dgSpecHash": "eRspJJ50fD4vh/AIfoPtKfV4riFzBVbtwe0ZnXZaP+OXrKyfel2n3kMha776M422CJ5nAdNnFEoNxPh9LIJyCQ==",
   "success": true,
-  "projectFilePath": "/Users/tony/Documents/Coding/CSharpPractice/DesignPatterns/DesignPatterns.csproj",
+  "projectFilePath": "/Users/tony/Documents/Coding/designPatterns/DesignPatterns/DesignPatterns.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
