@@ -1,0 +1,14 @@
+/Users/tony/Documents/Coding/CSharpPractice/DesignPatterns/bin/Debug/net8.0/DesignPatterns
+/Users/tony/Documents/Coding/CSharpPractice/DesignPatterns/bin/Debug/net8.0/DesignPatterns.deps.json
+/Users/tony/Documents/Coding/CSharpPractice/DesignPatterns/bin/Debug/net8.0/DesignPatterns.runtimeconfig.json
+/Users/tony/Documents/Coding/CSharpPractice/DesignPatterns/bin/Debug/net8.0/DesignPatterns.dll
+/Users/tony/Documents/Coding/CSharpPractice/DesignPatterns/bin/Debug/net8.0/DesignPatterns.pdb
+/Users/tony/Documents/Coding/CSharpPractice/DesignPatterns/obj/Debug/net8.0/DesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tony/Documents/Coding/CSharpPractice/DesignPatterns/obj/Debug/net8.0/DesignPatterns.AssemblyInfoInputs.cache
+/Users/tony/Documents/Coding/CSharpPractice/DesignPatterns/obj/Debug/net8.0/DesignPatterns.AssemblyInfo.cs
+/Users/tony/Documents/Coding/CSharpPractice/DesignPatterns/obj/Debug/net8.0/DesignPatterns.csproj.CoreCompileInputs.cache
+/Users/tony/Documents/Coding/CSharpPractice/DesignPatterns/obj/Debug/net8.0/DesignPatterns.dll
+/Users/tony/Documents/Coding/CSharpPractice/DesignPatterns/obj/Debug/net8.0/refint/DesignPatterns.dll
+/Users/tony/Documents/Coding/CSharpPractice/DesignPatterns/obj/Debug/net8.0/DesignPatterns.pdb
+/Users/tony/Documents/Coding/CSharpPractice/DesignPatterns/obj/Debug/net8.0/DesignPatterns.genruntimeconfig.cache
+/Users/tony/Documents/Coding/CSharpPractice/DesignPatterns/obj/Debug/net8.0/ref/DesignPatterns.dll
