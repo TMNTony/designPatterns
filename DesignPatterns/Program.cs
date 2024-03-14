@@ -5,18 +5,20 @@ using DesignPatterns.abstractFactory;
 using DesignPatterns.factory;
 using DesignPatterns.memento;
 using DesignPatterns.state;
+using DesignPatterns.strategy;
 
 public class Program
 {
     public static void Main(string[] args)
     {
-        abstractFactory();
+      strategyExample();
 
     }
 
     static void mementoExample()
     {
         var editor = new Editor();
+        
         var history = new History();
 
         editor.Content = "a";
@@ -55,6 +57,16 @@ public class Program
         language.Greet();
         Console.WriteLine("Total population = " + capital.getPopulation());
         Console.WriteLine("Top attractions include " + string.Join(", ", capital.listAttractions()));
+    }
+
+    static void strategyExample()
+    {
+        FlyBehavior flyWithWings = new FlyWithWings();
+        FlyBehavior cantFly = new CantFly();
+        Bird mallard = new Mallard(flyWithWings);
+        Bird penguin = new Penguin(cantFly);
+        mallard.fly();
+        penguin.fly();        
     }
     
 }
